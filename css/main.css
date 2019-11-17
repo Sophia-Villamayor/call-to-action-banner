@@ -10,16 +10,53 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .banner {
   overflow: hidden;
   max-height: 500px;
   position: relative;
+  align-items: center;
 }
 
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.content {
+  max-width: 45em;
+  width: 100%;
+}
+
+.picture {
+  transform: translatex(-20);
+  bottom: 10rem;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
 }
